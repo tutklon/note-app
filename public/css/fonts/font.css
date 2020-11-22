@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'PWSchoolScript';
+  src: url('PWSchoolScript.eot');
+  src: url('PWSchoolScript.eot?#iefix') format('embedded-opentype'),
+       url('PWSchoolScript.svg#PWSchoolScript') format('svg'),
+       url('PWSchoolScript.ttf') format('truetype'),
+       url('PWSchoolScript.woff') format('woff'),
+       url('PWSchoolScript.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

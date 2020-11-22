@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: dotted;
+    font-family: 'PT Sans' , sans-serif;
+}
+/* ERROR */
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+  }
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
+/* PLACEHOLDER */
+::placeholder {
+
+     color:rgb(173, 173, 173);
+  
+   opacity: 1;
+  }
+  ::-webkit-input-placeholder {
+  
+     color:rgb(173, 173, 173);
+  }
+  :-ms-input-placeholder {
+  
+     color:rgb(173, 173, 173);
+  }
+  ::-moz-placeholder { 
+  
+     color:rgb(173, 173, 173);
+  }
+  :-moz-placeholder {
+  
+    color:rgb(173, 173, 173);
+  }
+  
+.popup {
+    background-color: transparent;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+.cizgi {
+    margin-top: 10%;
+    width: 5px;
+    height: 370px;
+    background-color: black;
+    -ms-transform: skewX(0deg); /* IE 9 */
+    transform: skewX(0deg);
+}
+.kutu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.popup-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.popup-card input {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    margin-top: 5%;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(235, 235, 235);
+    transition: all 250ms;
+}
+.popup-card input:hover , input:focus {
+    background-color: rgb(245, 245, 245);
+}
+.popup-card button {
+    padding: 10px;
+    font-size: 16px;
+    width: 320px;
+    margin-top: 5%;
+    border: 2px solid black;
+    border-radius: 3px;
+    background-color: transparent;
+    transition: 250ms all;
+}
+.popup-card button:hover {
+    cursor: pointer;
+    border: 2px dotted black;
+    background-color: rgb(248, 248, 248);
+}
+/* FORM CSS */
+.display {
+    display: flex;
+    flex-direction: column;
+}
+#title {
+    color: #46147c;
+    padding: 15px;
+    font-size: 2.7em;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+#content {
+    padding: 15px;
+    height: 67vh;
+    font-size: 1.5rem;
+    outline: none;
+    border: none;
+    resize: none;
+}
+.success {
+    position: absolute;
+    left: 90%;
+    top: 90%;
+    font-size: 30px;
+    padding: 10px;
+    width: 60px;
+    border-radius: 100px;
+    border: none;
+    background: -webkit-linear-gradient(   #3b53b3 , #4b2caa , #741126 ,   #562f80);
+    color: white;
+    transition: all 250ms;
+}
+.success:hover {
+    cursor: pointer;
+    background: -webkit-linear-gradient(   #283877 , #3207b3  , #570214 ,   #46147c );
+}
+.about-box {
+    display: flex;
+}
+.about-input {
+    font-size: 16px;
+    width: 50vh;
+    border: none;
+    padding: 8px;
+}
+.about-input:hover  , .about-input:focus{
+    background: transparent;
+}
+.about-button {
+    padding: 8px;
+    background: transparent;
+    color:#4b2caa;
+    border: 2px solid #4b2caa;
+    border-radius: 5px;
+    transition: 250ms all;
+}
+.display-none {
+    display: none;
+}
+.about-button:hover {
+    cursor: pointer;
+    background: #4b2caa;
+    color: white;
+}
