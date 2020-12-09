@@ -1,17 +1,19 @@
 # Nother - NoteApp
 
-- ## Kullanılan Teknolojiler
+This is a basically note app.
+
+- ## Used Technologies
   - Node.js
   - Express.js
   - MongoDB
   
-- ## Kullanılan Kütüphaneler
   
+## Before Starting
 
-Uygulamada kullanılan gerekli paketleri indirmek için:
+Install Dependencies
 ```npm install```
 
-Uygulamayı çalıştırmak için:
+Start the App!
 ```npm start```
 
 
