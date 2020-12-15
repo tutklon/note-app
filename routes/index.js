@@ -1,8 +1,14 @@
 var express = require('express');
 var router = express.Router();
 const { register , login } = require('../controller/userController');
-router.get('/', (req ,res) => {
-    res.render("home");
+router.get('/', async (req ,res) => {
+    const token = await req.cookies.userToken;
+    if (!token) {
+        res.render("home");
+    } else {
+        res.redirect('/in');
+    }
+    
 });
 router.post('/register' , register);
 router.post('/login' ,login);
