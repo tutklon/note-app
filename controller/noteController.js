@@ -17,7 +17,7 @@ noteCtrl.getLastThreeNotes = async (req, res) => {
     .catch((err) => console.log(err));
 };
 noteCtrl.getAllNotes = async (req , res) => {
-    await Note.find({ user: req.user.authUser.userId }).lean().then((notes) => {
+    await Note.find({ user: req.user.authUser.userId }).sort({createdAt: -1}).lean().then((notes) => {
         const user = {
             _id: req.user.authUser.userId,
             username: req.user.authUser.username
