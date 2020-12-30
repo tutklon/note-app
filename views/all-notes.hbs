@@ -1,8 +1,8 @@
 <head>
-    <title>{{user.username}}s All Notes</title>
+    <title>Your all notes, {{user.username}}</title>
 </head>
 <nav class="nav">
-    <a href="/in" class="logo">{{user.username}}'s All Notes</a>
+    <a href="/in" class="logo">Your all notes</a>
     <ul>
         <li><a href="/in" class="reg"><i class="fas fa-arrow-circle-left"></i></a></li>
         <li> | </li>
@@ -18,15 +18,15 @@
         <div class="hr"></div>
         <div class="liste">
             {{#each notes}}
-                <a href="/view/{{_id}}" class="kart">
-                    <form action="/remove/{{_id}}" method="POST">
-                        <button type="submit" class="trashbutton"><i class="fas fa-trash-alt"></i></button>
-                    </form>
-                    <h1 style="color: #46147c;">{{title}}</h1>
-                    <span>{{date}}</span>
-                </a>
-                {{else}}
-                <h1 style="margin-top: 2%;">You have not a note yet, Let's create one when click to plus!</h1>
+            <a href="/view/{{_id}}" class="kart">
+                <form action="/remove/{{_id}}" method="POST">
+                    <button type="submit" class="trashbutton"><i class="fas fa-trash-alt"></i></button>
+                </form>
+                <h1 style="color: #46147c;">{{title}}</h1>
+                <span>{{date}}</span>
+            </a>
+            {{else}}
+            <h1 style="margin-top: 2%;">You have not a note yet, Let's create click on the plus to create one </h1>
             {{/each}}
 
         </div>
