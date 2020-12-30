@@ -140,6 +140,7 @@
     background: -webkit-linear-gradient(   #3b53b3 , #4b2caa , #741126 ,   #562f80);
     color: white;
     transition: all 250ms;
+    outline: none;
 }
 .success:hover {
     cursor: pointer;
