@@ -1,8 +1,8 @@
 <head>
-    <title>{{user.username}}'s Nother..</title>
+    <title>Nother for {{user.username}}</title>
 </head>
  <nav class="nav">
-        <a href="/in" class="logo">{{user.username}}'s Nother..</a>
+        <a href="/in" class="logo">Nother for {{user.username}}</a>
         <ul>
             <li><a href="/all-notes" class="reg">All Notes</a></li>
             <li> | </li>
@@ -13,7 +13,7 @@
     <section style="margin: 2% 8% 2% 8%;">
         <div class="seciton">
             <div class="head">
-                <h1 class="baslik"><i class="fas fa-sticky-note"></i>&emsp;Last Notes</h1>
+                <h1 class="baslik"><i class="fas fa-sticky-note"></i>&emsp;Last Createds</h1>
                 <a href="/add" class="add"><i class="fas fa-plus"></i></a>
             </div>
             <div class="hr"></div>
@@ -27,7 +27,7 @@
                     <span>{{date}}</span>
                 </a>
                 {{else}}
-                <h2 style="margin-top: 2%;">You have not a note yet, Let's create one when click to plus!</h2>
+                <h2 style="margin-top: 2%;">You have not a note yet, Let's create click on the plus to create one</h2>
                 {{/each}}
             </div>
         </div>
