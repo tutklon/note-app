@@ -6,6 +6,7 @@ This is a basically note app.
   - Node.js
   - Express.js
   - MongoDB
+  - Handlebars
   
   
 ## Before Starting
