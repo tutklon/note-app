@@ -4,7 +4,7 @@
 <section style="margin: 4% 8% 2% 8%;">
     <form action="/view/{{note._id}}/edit" method="POST" class="display" enctype="application/x-www-form-urlencoded">
         <h3 style="color: red;">{{message}}</h3>
-        <input type="text" placeholder="Title" name="title" id="title" autocomplete="off" value="{{note.title}}">
+        <input type="text" placeholder="Title" name="title" id="title-input" autocomplete="off" value="{{note.title}}">
         <textarea name="content" id="content" cols="30" rows="10" placeholder="Somethings...">{{note.content}}{{content}}</textarea>
         <button type="submit" class="success"><i class="fas fa-check"></i></button>
     </form>
