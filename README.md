@@ -1,4 +1,4 @@
-# Nother - NoteApp
+# Note App
 
 This is a basically note app.
 
