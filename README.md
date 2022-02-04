@@ -1,23 +1,2 @@
 # Note App
-
-This is a basically note app.
-
-- ## Used Technologies
-  - Node.js
-  - Express.js
-  - MongoDB
-  - Handlebars
-  
-  
-## Before Starting
-
-Install Dependencies
-```npm install```
-
-Start the App!
-```npm start```
-
-
-
-
-
+Hello everyone. This was actually my training project to learning programming. Now, i want to upgrade this and want to add my experiences.
